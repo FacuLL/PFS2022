@@ -15,6 +15,6 @@ for (let i = 1; i <= alumnos; i++) {
     }
     else {
         console.log("Debes ingresar numeros entre 0 y 10")
+        i--
     }
-    
 }
