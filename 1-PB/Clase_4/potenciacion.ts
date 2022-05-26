@@ -2,16 +2,9 @@ import * as rl from 'readline-sync';
 
 function potencia(base:number, exponente:number):any {
     let resultado:number = base;
-    if(exponente == 0) {
-        resultado = 1;
-    }
-    else if (exponente > 0) {
-        for (let i = 1; i < exponente; i++) {
-            resultado*=base;
-        }
-    }
-    else {
-        return "El exponente debe ser mayor a 0";
+
+    for (let i = 1; i < exponente; i++) {
+        resultado*=base;
     }
     return resultado;
 }
@@ -19,4 +12,12 @@ function potencia(base:number, exponente:number):any {
 const base:number = rl.questionFloat('Ingrese base de la potencia: ')
 const exponente:number = rl.questionFloat('Ingrese exponente de la potencia: ')
 
-console.log(potencia(base, exponente))
+if(exponente == 0) {
+    console.log(1)
+}
+else if (exponente > 0) {
+    console.log(potencia(base, exponente))
+}
+else {
+    console.log("El exponente debe ser mayor a 0");
+}
