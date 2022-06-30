@@ -1,0 +1,17 @@
+.logo {
+    margin-right: 15px;
+}
+
+.card {
+    display:inline-block;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.carousel-item{
+    height: 600px;
+} 
+.carousel-item img{
+    height: 600px;
+    object-fit:cover;
+}

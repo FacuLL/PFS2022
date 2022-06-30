@@ -1,0 +1,39 @@
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    text-align: center;
+    animation-name: titulo;
+    animation-duration: 1s;
+    font-size: 25px;
+}
+
+.textos {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+img {
+    width: 200px;
+}
+
+.opciones {
+    display: flex;
+    flex-flow:row;
+}
+
+.tubito {
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+@keyframes titulo {
+    0% {
+        font-size: 0px;
+        transform: rotate(360deg);
+    }
+    100% {
+        font-size: 25px;
+        rotate: 5deg;
+    }
+}

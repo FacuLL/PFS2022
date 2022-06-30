@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.titulo {
+    text-align: center;
+    font-family:'Courier New', Courier, monospace
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    margin-bottom: 11%;
+    width: 40%;
+    height: 15%;
+    border-radius: 15px;
+    border-width: 0;
+    background-color: rgb(80, 133, 254);
+    font-size: 7vh;
+    border-style: solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.5s ease;
+}
+
+.boton::after {
+    content: "Click aca";
+}
+
+.boton:hover {
+    background-color: rgb(121, 161, 255);
+    height: 17%;
+    width: 45%;
+    font-size: 7.5vh;
+}
+
+.boton:active {
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    position: absolute;
+}
+
+.boton:active::after {
+    content: 'Magia 🧙';
+}

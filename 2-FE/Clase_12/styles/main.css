@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body, html {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    width: 160px;
+    min-width: 160px;
+    height: 75px; 
+}
+
+.profilepic {
+    object-fit: cover;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.headergradient {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(34, 170, 172);
+    background: linear-gradient(180deg, rgba(34,170,172,1) 0%, rgba(34,170,172,1) 50%, rgba(0,212,255,0) 100%);
+}
+
+.header {
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.name {
+    font-size: 30px;
+    margin-bottom: -20px;
+    font-family:'Lexend Deca','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subtitle {
+    font-family: 'Noto Sans', sans-serif;
+    color:rgb(85, 85, 85)
+}
+
+.titulo {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    margin-left: 10px;
+}
+
+.contacto {
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.btcontacto {
+    width: 150px;
+    min-width: 150px;
+    height: 35%;
+    border-radius: 15px;
+    border-width: 5px;
+    border-color: rgb(80, 133, 254);
+    background-color: rgb(80, 133, 254);
+    font-size: 20px;
+    border-style: solid;
+    font-family: 'Noto Sans', sans-serif;
+    transition: all 0.5s ease;
+}
+
+.btcontacto:hover {
+    background-color: rgb(121, 161, 255);
+}
+
+.textos {
+    display: flex;
+    width:100%;
+    justify-content: left;
+    align-items: center;
+}
+
+hr {
+    height:82px;
+    width:2px;
+    border-width:0;
+    border-radius: 2px;
+    color:rgb(85, 85, 85);
+    background-color:rgb(85, 85, 85);
+    margin-top: 18px;
+}
+
+.container {
+    height: fit-content;
+    width: 100%;
+}
+
+.fila1 {
+    height: fit-content;
+    width: 100%;
+    display: block;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+    padding: 20px;
+}
+
+.fila2 {
+    height: fit-content;
+    width: 100%;
+    padding: 0px 20px;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+     
+}
+
+.columnas {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+}
+
+.cardInfo {
+    height: fit-content;
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px 20px;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+}
+
+.cardOtro {
+    
+    width: 50%;
+    border-radius: 25px;
+    padding: 10px 20px;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    margin-right: 10px;
+    display: flex;
+    flex-flow: column;
+}
+
+.cardConocimientos {
+    
+    height: fit-content;
+    width: 50%;
+    border-radius: 25px;
+    padding: 10px 20px;
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+    margin-left: 10px;
+}
+
+
+.titulocard {
+    font-family: 'Raleway', sans-serif;
+    color:rgb(43, 43, 43);
+    font-size: 200%;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+p, ul {
+    font-size: 23px;
+    font-family: 'Noto Sans', sans-serif;;
+}
+
+ul {
+    margin-top: -10px;
+}
+
+.autor {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.espacio {
+    height: 5px;
+}
+
+.card {
+    background-color: rgb(152, 202, 202);
+    border: 5px solid rgba(34,170,172,1);
+}
