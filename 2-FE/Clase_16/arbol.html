@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbol del DOM</title>
+    <link rel="stylesheet" href="styles/arbol.css">
+</head>
+<body>
+    <div class="container">
+        <div class="editor">
+            <h2 class="editorTitle">DOM Editor</h2>
+            <div class="editorContainer">
+                <div class="editorInfo">
+                    <p id="location">location</p>
+                    <ul id="childList"></ul>
+                </div>
+                <div class="editMenu">
+                    <div class="textareas">
+                        <textarea placeholder="New Child Tag" id="tag"></textarea>
+                        <textarea placeholder="New Child ID" id="newchildid"></textarea>
+                        <textarea placeholder="New Child Content" id="content"></textarea>
+                        <textarea placeholder="New Child Extra Atributes" id="atributes"></textarea>
+                        <a href="attributesinfo.html" target="_blank" class="infolink">More info</a>
+                    </div>
+                    <div class="editButtons">
+                        <button id="addChild">Add Child</button>
+                        <button id="deleteChild">Delete Current Child</button>
+                    </div>
+                </div>
+                <div class="errordiv">
+                    <p id="errortext"></p>
+                </div>
+            </div>
+        </div>
+        <hr id="separador">
+        <div class="visualizer">
+            <h2 class="visualizerTitle">DOM Visualizer</h2>
+            <div id="root"></div>
+        </div>
+    </div>
+    <script src="scripts/arbol.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/compras.css">
+    <title id="pagetitle">Carrito</title>
+</head>
+<body>
+    <div id="divcompra">
+        <div class="title">
+            <h1>Carrito de compras</h1>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Articulo</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Precio Total</th>
+                    <th>X</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <div class="addmenu">
+            <textarea id="name" placeholder="Nombre articulo"></textarea>
+            <textarea id="cant" placeholder="Cantidad"></textarea>
+            <textarea id="precio" placeholder="Precio unitario"></textarea>
+        </div>
+        <div class="buttondiv">
+            <button id="additem">Añadir Item</button>
+        </div>
+        <div class="buttondiv">
+            <button id="comprar">Comprar</button>
+        </div>
+        <div class="buttondiv">
+            <p id="error"></p>
+        </div>
+    </div>
+    <div id="comprarealizada" style="display:none">
+        <h1 id="mensajecompra">Compra Realizada</h1>
+        <div class="buttondiv">
+            <button id="otracompra">Realizar otra compra</button>
+        </div>
+    </div>
+    <script src="scripts/compras.js"></script>
+</body>
+</html>

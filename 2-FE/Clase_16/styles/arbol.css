@@ -1,0 +1,88 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    height: 100%;
+    width: 100%;
+}
+
+h2.editorTitle, h2.visualizerTitle {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+hr#separador {
+    margin: 0;
+}
+
+.editor, .visualizer {
+    width: 100%;
+}
+
+.editorInfo {
+    padding: 5px;
+}
+
+.editMenu {
+    display: flex;
+    flex-flow: row;
+}
+
+.editButtons {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+button#addChild {
+    width: 150px;
+    height: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: darkcyan;
+    margin: 5px;
+}
+
+button#deleteChild {
+    width: 150px;
+    height: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-width: 0px;
+    border-radius: 5px;
+    background-color: rgb(255, 34, 34);
+    margin: 5px;
+}
+
+.textareas {
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+}
+
+.textareas textarea {
+    margin: 5px;
+    border-width: 2px;
+    resize: none;
+}
+
+.errordiv {
+    padding: 5px;
+}
+
+p#errortext {
+    color: red;
+}
+
+.infolink {
+    margin-left: 5px;
+}
