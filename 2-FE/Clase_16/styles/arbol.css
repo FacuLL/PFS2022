@@ -86,3 +86,21 @@ p#errortext {
 .infolink {
     margin-left: 5px;
 }
+
+h1#infoTitle {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.infoContainer {
+    padding-top: 200px;
+    width: 600px;
+    margin: auto;
+}
+
+.divColor {
+    background-color: aquamarine;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}

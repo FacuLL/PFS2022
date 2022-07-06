@@ -34,6 +34,12 @@ function showCurrentChilds() {
     else {
         list += "<li>Empty</li>";
     }
+    var attrs = element.attributes;
+    var output = '';
+    for(var i = attrs.length - 1; i >= 0; i--) {
+        output += '<li>' + attrs[i].name + ':"' + attrs[i].value + '"</li>';
+    }
+    document.getElementById('attributeslist').innerHTML = output;
     document.getElementById('childList').innerHTML = list;
 }
 
@@ -73,7 +79,9 @@ function newChild() {
                 var currentlocation = locations[locations.length - 1];
                 if(currentlocation != "body") {
                     var currentid = currentlocation.split("('")[1].split("')")[0];
-                    var newitem = document.createElement(tag).setAttribute('id', id);
+                    var newitem = document.createElement(tag);
+                    newitem.setAttribute('id', id);
+                    newitem.innerHTML = content;
                     if(!isEmpty(attributes)) {
                         var separatedattributes = attributes.split(",")
                         for (let i = 0; i < separatedattributes.length; i++) {
