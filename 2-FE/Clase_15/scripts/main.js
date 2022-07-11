@@ -30,7 +30,7 @@ function contadormenos() {
 function dados() {
     var contador = 0;
     for (let i = 0; i < 1000; i++) {
-        var tirada = Math.floor(Math.random() * 10 + 2);
+        var tirada = Math.floor(Math.random() * 11 + 2);
         if (tirada == 7) contador++;
     }
     document.getElementById("textodados").innerHTML = "El número 7 salió " + contador + " veces";

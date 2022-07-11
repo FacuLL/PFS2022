@@ -1,0 +1,89 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    padding-top: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+thead {
+    font-size: 30px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+tbody {
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
+
+.addmenu {
+    display: flex;
+    justify-content: center;
+}
+
+textarea {
+    resize: none;
+    margin: 5px;
+}
+
+.buttondiv {
+    display: flex;
+    justify-content: center;
+}
+
+button#comprar {
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+    border-width: 0;
+    border-radius: 10px;
+    background-color: rgb(27, 210, 3);
+    font-size: 30px;
+}
+
+button#additem {
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    border-width: 0;
+    border-radius: 10px;
+    background-color: darkcyan;
+    font-size: 20px;
+}
+
+p#error {
+    color: red;
+}
+
+img:hover {
+    filter: blur(1px);
+}
+
+button#otracompra {
+    width: 200px;
+    height: 30px;
+    border-width: 0;
+    border-radius: 10px;
+    background-color: darkcyan;
+    font-size: 20px;
+    margin:5px;
+}
