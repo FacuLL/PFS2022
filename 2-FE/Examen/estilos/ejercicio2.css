@@ -1,0 +1,54 @@
+table {
+    width: 1000px;
+    margin:auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+caption {
+    font-size: 65px;
+    margin-bottom: 10px;
+}
+
+div.agregar {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+div.inputs {
+    width: 300px;
+    display: flex;
+    flex-flow: column;
+}
+
+div.submit {
+    width: 300px;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-bottom: 10px;
+    width: 150px;
+    height: 25px;
+    border-width: 0;
+    border-radius: 5px;
+}
+
+button#btSubmit {
+    background-color: darkcyan;
+}
+
+button#btDelete {
+    background-color: lightcoral;
+}
+
+p#error {
+    color: red;
+}

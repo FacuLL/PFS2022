@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/ejercicio2.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <table>
+        <caption>Asistencias de alumnos</caption>
+        <tbody id="tablebody">
+            <tr>
+                <th>Alumno</th>
+                <th>Fecha</th>
+                <th>Materia</th>
+            </tr>
+        </tbody>
+    </table>
+    <div class="agregar">
+        <div class="inputs">
+            <input type="text" placeholder="Nombre del alumno" id="studentName">
+            <input type="date" id="date">
+            <select id="materias">
+                <option value="Matematica">Matematica</option>
+                <option value="Fisica">Fisica</option>
+                <option value="Programacion">Programacion</option>
+                <option value="Educacion Fisica">Educacion Fisica</option>
+                <option value="Politica">Politica</option>
+            </select>
+        </div>
+        <div class="submit">
+            <button id="btSubmit">Agregar</button>
+            <button id="btDelete">Eliminar todos</button>
+            <p id="error"></p>
+        </div>
+    </div>
+    <script src="scripts/ejercicio2.js"></script>
+</body>
+</html>
