@@ -11,7 +11,7 @@ export default class BasicUser extends User {
     private publications: string[] = []; // Se deberia crear una clase de tipo publicacion.
     private publicaccount: boolean = false;
 
-    constructor(name, email, phone, birth, password, publicaccount?, followsids?, followersids?, profilepic?, publications?, userid?) {
+    constructor(name: string, email: string, phone: string, birth: Date, password: string, publicaccount?: boolean, followsids?: number[], followersids?: number[], profilepic?: string, publications?: string[], userid?: number) {
         super(name, email, phone, birth, password);
         if (publicaccount) this.publicaccount = publicaccount;
         if (followsids) this.followsIds = followsids;

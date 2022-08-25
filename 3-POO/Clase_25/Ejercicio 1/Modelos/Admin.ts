@@ -8,7 +8,7 @@ export default class Admin extends User {
     private adminid: number;
     private adminlevel: number;
 
-    constructor(name, email, phone, birth, password, adminlevel, adminid?) {
+    constructor(name: string, email: string, phone: string, birth: Date, password: string, adminlevel: number, adminid?: number) {
         super(name, email, phone, birth, password);
         this.adminlevel = adminlevel;
         if(adminid) this.adminid = adminid

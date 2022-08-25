@@ -7,7 +7,7 @@ export default abstract class User {
     private birth: Date;
     private password: string;
 
-    constructor(name, email, phone, birth, password) {
+    constructor(name: string, email: string, phone: string, birth: Date, password: string) {
         this.name = name;
         this.email = email;
         this.phone = phone;

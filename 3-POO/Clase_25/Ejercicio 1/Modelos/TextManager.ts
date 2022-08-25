@@ -7,7 +7,7 @@ export default class TextManager {
     public dataSplitter: string = ";"; // Caracter utilizado como separador de datos dentro de una linea
     public lineSplitter: string = "\n"; // Caracter utilizado como separador de lineas
 
-    constructor(dataSplitter?, lineSplitter?) {
+    constructor(dataSplitter?: string, lineSplitter?: string) {
         if(dataSplitter) this.dataSplitter = dataSplitter;
         if(lineSplitter) this.lineSplitter = lineSplitter;
     }
