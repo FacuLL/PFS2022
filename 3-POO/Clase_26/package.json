@@ -1,0 +1,14 @@
+{
+  "name": "almacen",
+  "version": "1.0.0",
+  "description": "almacen de bebidas",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc index.ts && node index.js"
+  },
+  "author": "los pibes",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
