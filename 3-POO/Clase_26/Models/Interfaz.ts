@@ -139,7 +139,7 @@ export default class Interfaz {
         return `
         ___________________________________________
         |            Almacen de Bebidas            |
-        |              ${name}
+        |              ${name}                     
         | Elija:                                   |
         | 1. Añadir bebida                         |
         | 2. Consultar bebidas                     |
