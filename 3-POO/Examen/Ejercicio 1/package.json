@@ -1,0 +1,11 @@
+{
+  "name": "ej1-examenpoo-pfs2022",
+  "version": "1.0.0",
+  "description": "Ejercicio 1 del examen de programacion orientada a objetos del curso de programador full stack 2022",
+  "main": "main.ts",
+  "scripts": {
+    "test": "tsc main.ts && node main.js"
+  },
+  "author": "Facundo López Llopis",
+  "license": "ISC"
+}
